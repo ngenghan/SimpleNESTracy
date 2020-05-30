@@ -38,7 +38,7 @@ int main(int argc, char** argv)
 
     sn::Log::get().setLevel(sn::Info);
 
-    std::string path;
+    std::string path = "mario.nes";
 
     //Default keybindings
     std::vector<sf::Keyboard::Key> p1 {sf::Keyboard::J, sf::Keyboard::K, sf::Keyboard::RShift, sf::Keyboard::Return,
